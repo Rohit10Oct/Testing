@@ -22,5 +22,11 @@ public class FirstTest {
 		System.out.println("Third");
 	}
 	
+	@Test(priority=4)
+	public void fourth() {
+		
+		System.out.println("fourth");
+	}
+	
 
 }
