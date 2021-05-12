@@ -16,6 +16,11 @@ public class FirstTest {
 		System.out.println("Second");
 	}
 	
+@Test(priority=3)
+	public void third() {
+		
+		System.out.println("Third");
+	}
 	
 
 }
